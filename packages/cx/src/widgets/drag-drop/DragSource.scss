@@ -9,6 +9,7 @@
 
    .#{$block}#{$name} {
       box-sizing: border-box;
+      touch-action: none;
 
       &.#{$state}dragged {
          opacity: 0.3;
